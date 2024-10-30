@@ -7,6 +7,7 @@
     <!-- Link al CSS per la formattazione -->
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
     <header>
@@ -44,33 +45,79 @@
     <!-- Sezione Treni -->
     <section id="treni">
         <h2>Orari Treni</h2>
-        <img id="treni-image" src="images/full_screenshot.png" alt="Immagine treni" style="width: 100%;">
+        <img id="treni-image" src="screen_treni/ancona-torrette_full_screenshot.png" alt="Immagine treni" style="width: 100%;">
+        <img id="treni-image" src="screen_treni/ancona_full_screenshot.png" alt="Immagine treni" style="width: 100%;">
     </section>
 
     <!-- Sezione Bus -->
     <section id="bus">
         <h2>Orari Bus</h2>
 
-        <!-- Orari Feriali Scolastici -->
-        <div id="orari-feriali-scolastici">
-            <h3>Orari Feriali Scolastici</h3>
-            <div id="feriali-scolastici-images"></div>
-        </div>
-
-        <!-- Orari Feriali Scuole Chiuse -->
-        <div id="orari-feriali-scuole-chiuse">
-            <h3>Orari Feriali Scuole Chiuse</h3>
-            <div id="feriali-scuole-chiuse-images"></div>
-        </div>
-
-        <!-- Orari Festivi -->
-        <div id="orari-festivi">
-            <h3>Orari Festivi</h3>
-            <div id="festivi-images"></div>
+        <!-- Slider principale per orari bus -->
+        <div class="container">
+            <!-- Paginazione e navigazione -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <!-- Slider principale -->
+            <div class="swiper">
+                <!-- Wrapper di Swiper -->
+                <div class="swiper-wrapper">
+                    <!-- Le slide verranno aggiunte dinamicamente tramite JavaScript -->
+                </div>
+            </div>
         </div>
     </section>
 
+    <!-- Inclusione di Swiper e PDF.js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
     <script src="script.js"></script>
+    
+    <script>
+        // Slider PDF per Orari Bus
+        const pdfUrl = "pdf_bus/anconavacanzescolastico_21102024.pdf";
+
+        // Inizializza Swiper senza loop inizialmente
+        const swiper = new Swiper('.swiper', {
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+        // Funzione per caricare e mostrare ogni pagina del PDF
+        async function loadPdfPages(url) {
+            const pdf = await pdfjsLib.getDocument(url).promise;
+
+            for (let i = 1; i <= pdf.numPages; i++) {
+                const page = await pdf.getPage(i);
+                const canvas = document.createElement('canvas');
+                const context = canvas.getContext('2d');
+                const viewport = page.getViewport({ scale: 1.5 });
+                canvas.width = viewport.width;
+                canvas.height = viewport.height;
+
+                await page.render({ canvasContext: context, viewport: viewport }).promise;
+
+                const imageDataUrl = canvas.toDataURL();
+                const slide = document.createElement('div');
+                slide.classList.add('swiper-slide');
+                slide.innerHTML = `<img src="${imageDataUrl}" alt="Page ${i}">`;
+                swiper.appendSlide(slide);
+            }
+
+            // Abilita il loop dopo aver caricato tutte le pagine
+            swiper.loopCreate();
+        }
+
+        // Carica le pagine del PDF al caricamento del documento
+        loadPdfPages(pdfUrl);
+    </script>
 </body>
 </html>
 

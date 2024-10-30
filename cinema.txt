@@ -1,0 +1,73 @@
+Ecco un elenco strutturato della programmazione dei film nei cinema di Ancona per questa settimana, con orari, indirizzi e numeri di telefono.
+
+### 1. **Multiplex Giometti**
+- **Indirizzo:** Via Filonzi, 4 - Ancona
+- **Telefono:** 07194123
+
+#### Programmazione:
+- **Parthenope**
+  - Orari: 18:00, 21:10
+- **Venom: The Last Dance**
+  - Orari: 17:50, 20:15, 21:30, 22:30
+- **Megalopolis**
+  - Orario: 22:00
+- **Frankenstein Junior (4K)**
+  - Orario: 20:30
+- **200% Lupo**
+  - Orari: 17:30, 20:00
+- **Iddu - L'Ultimo Padrino**
+  - Orario: 17:30
+- **Smile 2**
+  - Orari: 17:40, 20:10, 22:40
+- **The Substance**
+  - Orari: 18:40, 21:40
+
+---
+
+### 2. **Movieland Goldoni**
+- **Indirizzo:** Via Montebello, 91 - Ancona
+- **Telefono:** 071201236
+
+#### Programmazione:
+- **Parthenope**
+  - Orari: 18:30, 21:10
+- **Venom: The Last Dance**
+  - Orari: 21:30 (Versione originale con sottotitoli)
+- **C'era una volta in America**
+  - Orario: 18:10
+
+---
+
+### 3. **Cinema Azzurro**
+- **Indirizzo:** Via Tagliamento, 39 - Ancona
+- **Telefono:** 0710973884
+
+#### Programmazione:
+- **The Apprentice - Alle Origini di Trump**
+  - Orari: 19:15 (29/10), 19:00, 21:15 (26/10)
+- **Trilogia Ti West**
+  - Orari: 21:00 (29/10)
+- **Familia**
+  - Orari: 21:00 (31/10), 21:00 (01/11)
+- **L’Amore secondo Kafka**
+  - Orari: 19:00 (31/10), 17:00, 19:00 (01/11)
+- **Dellamorte Dellamore**
+  - Orario: 23:50 (31/10)
+
+---
+
+### 4. **Cinema Galleria**
+- **Indirizzo:** Via A. Giannelli, 2 - Ancona
+- **Telefono:** 07164688
+
+#### Programmazione:
+- **The Substance**
+  - Orario: 18:40, 21:40 (30/10)
+- **Frankenstein Junior**
+  - Orario: 20:30 (29/10)
+
+---
+
+### Note:
+- Gli orari sono soggetti a variazione, si consiglia di verificare prima di recarsi al cinema.
+- I film in programmazione possono includere sia versioni originali che doppiate.

@@ -1,0 +1,53 @@
+Ecco un elenco strutturato dei supermercati di Ancona con orari di apertura, indirizzo e numero di telefono:
+
+1. **Supermercato Sì con Te**
+   - **Indirizzo:** Via Giacomo Matteotti, 115, 60121 Ancona
+   - **Orari di apertura:** Non specificati
+   - **Telefono:** 071 2814070
+
+2. **Supermercato Tantarelli (Sì Con Te Supermercato - Q2)**
+   - **Indirizzo:** Via Flavia, snc, 60131 Ancona
+   - **Orari di apertura:** Non specificati
+   - **Telefono:** 071 2864961
+
+3. **Valle Bio**
+   - **Indirizzo:** Via Valenti Ghino, 1, 60131 Ancona
+   - **Orari di apertura:** Non specificati
+   - **Telefono:** 071 2901199
+
+4. **Coal il Market City**
+   - **Indirizzo:** Via Manzoni Alessandro, 23, 60128 Ancona
+   - **Orari di apertura:** Non specificati
+   - **Telefono:** 071 2810234
+
+5. **Conad**
+   - **Indirizzo:** Via Tiziano, 23/29, 60125 Ancona
+   - **Orari di apertura:** Non specificati
+   - **Telefono:** 071 2805058
+
+6. **Conad**
+   - **Indirizzo:** Corso Carlo Alberto, 2, 60127 Ancona
+   - **Orari di apertura:** Non specificati
+   - **Telefono:** 071 44640
+
+7. **Coop**
+   - **Indirizzo:** Via dell'Artigianato, 6, 60127 Ancona
+   - **Orari di apertura:** Non specificati
+   - **Telefono:** 071 2814824
+
+8. **Crai**
+   - **Indirizzo:** Corso Mazzini Giuseppe, 60131 Ancona
+   - **Orari di apertura:** Non specificati
+   - **Telefono:** 071 201251
+
+9. **Eurospin**
+   - **Indirizzo:** Via Valle Miano, 30, 60125 Ancona
+   - **Orari di apertura:** Non specificati
+   - **Telefono:** 045 7862000
+
+10. **Tigre**
+    - **Indirizzo:** Corso Amendola, 16, 60131 Ancona
+    - **Orari di apertura:** Non specificati
+    - **Telefono:** Non specificato
+
+Questi supermercati sono disponibili per la spesa questa settimana. Gli orari di apertura specifici non sono stati forniti nel testo, quindi si consiglia di contattare direttamente i supermercati per confermare gli orari.
