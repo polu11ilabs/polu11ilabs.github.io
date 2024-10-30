@@ -67,57 +67,58 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Inclusione di Swiper e PDF.js -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
-    <script src="script.js"></script>
     
-    <script>
-        // Slider PDF per Orari Bus
-        const pdfUrl = "pdf_bus/anconavacanzescolastico_21102024.pdf";
 
-        // Inizializza Swiper senza loop inizialmente
-        const swiper = new Swiper('.swiper', {
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-        });
+        <!-- Inclusione di Swiper e PDF.js -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+        <script src="script.js"></script>
+        
+        <script>
+            // Slider PDF per Orari Bus
+            const pdfUrl = "pdf_bus/anconavacanzescolastico_21102024.pdf";
 
-        // Funzione per caricare e mostrare ogni pagina del PDF
-        async function loadPdfPages(url) {
-            const pdf = await pdfjsLib.getDocument(url).promise;
+            // Inizializza Swiper senza loop inizialmente
+            const swiper = new Swiper('.swiper', {
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
 
-            for (let i = 1; i <= pdf.numPages; i++) {
-                const page = await pdf.getPage(i);
-                const canvas = document.createElement('canvas');
-                const context = canvas.getContext('2d');
-                const viewport = page.getViewport({ scale: 1.5 });
-                canvas.width = viewport.width;
-                canvas.height = viewport.height;
+            // Funzione per caricare e mostrare ogni pagina del PDF
+            async function loadPdfPages(url) {
+                const pdf = await pdfjsLib.getDocument(url).promise;
 
-                await page.render({ canvasContext: context, viewport: viewport }).promise;
+                for (let i = 1; i <= pdf.numPages; i++) {
+                    const page = await pdf.getPage(i);
+                    const canvas = document.createElement('canvas');
+                    const context = canvas.getContext('2d');
+                    const viewport = page.getViewport({ scale: 1.5 });
+                    canvas.width = viewport.width;
+                    canvas.height = viewport.height;
 
-                const imageDataUrl = canvas.toDataURL();
-                const slide = document.createElement('div');
-                slide.classList.add('swiper-slide');
-                slide.innerHTML = `<img src="${imageDataUrl}" alt="Page ${i}">`;
-                swiper.appendSlide(slide);
+                    await page.render({ canvasContext: context, viewport: viewport }).promise;
+
+                    const imageDataUrl = canvas.toDataURL();
+                    const slide = document.createElement('div');
+                    slide.classList.add('swiper-slide');
+                    slide.innerHTML = `<img src="${imageDataUrl}" alt="Page ${i}">`;
+                    swiper.appendSlide(slide);
+                }
+
+                // Abilita il loop dopo aver caricato tutte le pagine
+                swiper.loopCreate();
             }
 
-            // Abilita il loop dopo aver caricato tutte le pagine
-            swiper.loopCreate();
-        }
-
-        // Carica le pagine del PDF al caricamento del documento
-        loadPdfPages(pdfUrl);
-    </script>
+            // Carica le pagine del PDF al caricamento del documento
+            loadPdfPages(pdfUrl);
+        </script>
+    </section>
 </body>
 </html>
 
