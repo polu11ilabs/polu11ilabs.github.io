@@ -35,4 +35,5 @@ loadImages('jesi_ferialescolastico_06092024', 15, 'feriali-scolastici-images');
 loadImages('jesi_festivo_30082024', 4, 'festivi-images');
 
 // Carica l'immagine per la sezione Treni
-document.getElementById('treni-image').src = 'full_screenshot.png';
+document.getElementById('treni-image').src = 'screen_treni/ancona-torrette_full_screenshot.png';
+document.getElementById('treni-image').src = 'screen_treni/ancona_full_screenshot.png';
