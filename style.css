@@ -87,6 +87,7 @@ section#info {
     color: #000000; /* color can be changed according to main html page design */
     margin-left: 19.5%; /* remove margin if global width: 100% */
     margin-right: 19.5%; /* remove margin if global width: 100% */
+    position: relative;
     opacity: 100%;
 }
 
