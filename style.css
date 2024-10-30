@@ -64,37 +64,36 @@ section#info {
 
 
 /* Stile per il container dello swiper */
-/* #container {*/
-    /*width: 100%;*/
-    /*height: auto;*/
-    /*background: #f5f5f5; /* colore principale della pagina */
+#container {
+    width: 100%;
+    height: auto;
+    background: #f5f5f5; /* colore principale della pagina */
     /*display: flex;*/
     /*align-items: center;*/
     /*justify-content: center;*/
-/*}*/
+}
 
-/*.swiper {
-    /*width: 80%;
-    /*height: fit-content;
-/*}
+.swiper {
+    width: 80%;
+    height: fit-content;
+}
 
-/*.swiper-slide img {
-   /* width: 100%;
-/*}
+.swiper-slide img {
+    width: 100%;
+}
 
 /* Stile per le frecce dello slider */
-/*.container.swiper-button-prev,  .container.swiper-button-next {
-    /*color: #000000; /* color can be changed according to main html page design */
-    /*margin-left: 19.5%; /* remove margin if global width: 100% */
-    /*margin-right: 19.5%; /* remove margin if global width: 100% */
-    /*position: absolute;
-    /*opacity: 100%;
-/*}
+.swiper.swiper-button-prev,  .swiper.swiper-button-next {
+    color: #000000; /* color can be changed according to main html page design */
+    margin-left: 19.5%; /* remove margin if global width: 100% */
+    margin-right: 19.5%; /* remove margin if global width: 100% */
+    opacity: 100%;
+}
 
 
 /* Stile per il bullet attivo dello swiper */
-/*.container.swiper-pagination-bullet-active {
+.swiper.swiper-pagination-bullet-active {
     background: #000000;
     opacity: 1;
-    position: absolute;
-}  */
+
+}
