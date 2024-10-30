@@ -88,13 +88,13 @@ section#info {
 
 .container .swiper-button-prev, .container .swiper-button-next{ /* arrow buttons */
     color: #fff; /* color can be changed according to main html page design */
-    margin-left: 19.5%; /* remove margin if global width: 100% */
-    margin-right: 19.5%; /* remove margin if global width: 100% */
+    margin-left: 0%; /* remove margin if global width: 100% */
+    margin-right: 0%; /* remove margin if global width: 100% */
     opacity: 50%;
 }
 
 .container .swiper-pagination-bullet-active{ /* bullet swiper at the bottom of the swiper */
     background: #fff; /* color can be changed according to main html page design */
-    margin: 10%;
+    margin: 0%;
     opacity: 50%;
 }
