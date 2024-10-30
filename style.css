@@ -84,16 +84,16 @@ section#info {
 
 /* Stile per le frecce dello slider */
 .swiper.swiper-button-prev,  .swiper.swiper-button-next {
-    color: #000000; /* color can be changed according to main html page design */
-    margin-left: 19.5%; /* remove margin if global width: 100% */
-    margin-right: 19.5%; /* remove margin if global width: 100% */
-    opacity: 100%;
+    color: #2c3e50; /* color can be changed according to main html page design */
+    margin-left: 0%; /* remove margin if global width: 100% */
+    margin-right: 0%; /* remove margin if global width: 100% */
+    opacity: 50%;
 }
 
 
 /* Stile per il bullet attivo dello swiper */
 .swiper.swiper-pagination-bullet-active {
-    background: #000000;
-    opacity: 1;
+    background: #2c3e50;
+    opacity: 50%;
 
 }
