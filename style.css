@@ -60,41 +60,51 @@ section#info {
     margin: 10px 0;
 }
 
-*{
-    margin: auto;
+/* Rimuovi il width globale per evitare che tutti gli elementi siano ridotti */
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 80%; /* width: 100% */
 }
 
-
-.container{
+/* Stile per il container dello swiper */
+.container {
     width: 100%;
     height: 100vh;
-    background: #3C3C3B; /* color can be changed according to main html page background */
+    background: #3C3C3B; /* colore principale della pagina */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.swiper{
+.swiper {
     width: 80%;
     height: fit-content;
 }
 
-.swiper-slide img{
+.swiper-slide img {
     width: 100%;
 }
 
-.container .swiper-button-prev, .container .swiper-button-next{ /* arrow buttons */
-    color: #fff; /* color can be changed according to main html page design */
-    margin-left: 0%; /* remove margin if global width: 100% */
-    margin-right: 0%; /* remove margin if global width: 100% */
-    opacity: 50%;
+/* Stile per le frecce dello slider */
+.container .swiper-button-prev, .container .swiper-button-next {
+    color: #fff;
+    position: absolute;
+    top: 50%; /* posiziona le frecce al centro verticalmente */
+    transform: translateY(-50%);
+    opacity: 0.5;
 }
 
-.container .swiper-pagination-bullet-active{ /* bullet swiper at the bottom of the swiper */
-    background: #fff; /* color can be changed according to main html page design */
-    margin: 0%;
-    opacity: 50%;
+.container .swiper-button-prev {
+    left: 10px; /* distanza dal bordo sinistro */
+}
+
+.container .swiper-button-next {
+    right: 10px; /* distanza dal bordo destro */
+}
+
+/* Stile per il bullet attivo dello swiper */
+.container .swiper-pagination-bullet-active {
+    background: #fff;
+    opacity: 0.5;
 }
