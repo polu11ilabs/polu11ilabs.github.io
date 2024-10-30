@@ -1,70 +1,53 @@
-Ecco un elenco strutturato delle farmacie di Ancona con i rispettivi orari di apertura, indirizzi e numeri di telefono per la settimana corrente:
+Ecco un elenco delle farmacie di Ancona con gli orari di apertura, indirizzo e numero di telefono, inclusi i turni notturni per questa settimana:
 
-### Farmacie di Ancona - Orari di Apertura
+### Farmacie di Ancona Aperte Oggi (30 Ottobre 2024)
 
-1. **Farmacia Dubbini S.a.s.**
-   - **Indirizzo:** Corso Giovanni Amendola, 26, Ancona, AN 60123
-   - **Orari di apertura:** 08:00 - 13:00 / 16:00 - 20:00
-   - **Telefono:** 071 202710
+1. **Farmacia Centrale**
+   - **Indirizzo:** Corso Giuseppe Mazzini, 1, Ancona, AN 60121
+   - **Orari:** 08:30 - 22:30
+   - **Telefono:** 071 2084647
 
-2. **Farmacia Lemme**
-   - **Indirizzo:** Via delle Tavernelle, 107, Ancona, AN 60128
-   - **Orari di apertura:** 08:00 - 13:00 / 16:00 - 19:45
-   - **Telefono:** 071 85808
+2. **Farmacia Zecchini**
+   - **Indirizzo:** Piazza Roma, 1, Ancona, AN 60121
+   - **Orari:** 08:30 - 20:00
+   - **Telefono:** 071 2074804
 
-3. **Centro Ortopedico Marchigiano**
-   - **Indirizzo:** Via Flaminia, 309/310, Ancona, AN 60126
-   - **Orari di apertura:** 09:00 - 13:00 / 15:30 - 19:30
-   - **Telefono:** 071 2181277
+3. **Farmacia delle Grazie**
+   - **Indirizzo:** Via Mario Torresi, 137, Ancona, AN 60128
+   - **Orari:** 07:30 - 20:00
+   - **Telefono:** 071 898332
 
-4. **Farmacia Settimi - Dorica**
-   - **Indirizzo:** Via dell'Industria, 4, Ancona, AN 60127
-   - **Orari di apertura:** 08:30 - 12:30 / 16:00 - 19:30
-   - **Telefono:** 071 202793
+4. **Farmacia Sciarrillo**
+   - **Indirizzo:** Via Ascoli Piceno, 23, Ancona, AN 60126
+   - **Orari:** 08:00 - 20:00
+   - **Telefono:** 071 898061
 
-5. **Farmacia Palmieri Lattanzi Tolomei**
-   - **Indirizzo:** Corso Giuseppe Garibaldi, 62, Ancona, AN 60121
-   - **Orari di apertura:** 08:30 - 12:30 / 16:00 - 19:30
-   - **Telefono:** 071 202771
+5. **Farmacia Dr.Max**
+   - **Indirizzo:** Corso Giuseppe Garibaldi, 116, Ancona, AN 60121
+   - **Orari:** 08:00 - 20:00
+   - **Telefono:** 071 2070220
 
-6. **Farmacia Posatora**
+6. **Farmacia del Piano**
+   - **Indirizzo:** Piazza Ugo Bassi, 4, Ancona, AN 60121
+   - **Orari:** 07:00 - 23:00
+   - **Telefono:** 071 894208
+
+7. **Farmacia Posatora**
    - **Indirizzo:** Via Martin Luther King, 9, Ancona, AN 60131
-   - **Orari di apertura:** 08:30 - 12:30 / 16:00 - 19:30
-   - **Telefono:** 071 42767
+   - **Orari:** 08:00 - 20:00
+   - **Telefono:** 071 2802355
 
-7. **Farmacia Ancona**
+8. **Farmacia Ancona**
    - **Indirizzo:** Corso Giovanni Amendola, 5/B, Ancona, AN 60123
-   - **Orari di apertura:** 08:30 - 12:30 / 16:00 - 19:30
+   - **Orari:** 08:00 - 20:00
    - **Telefono:** 071 204142
 
-8. **Farmacia del Passetto Dottoressa Barattini**
-   - **Indirizzo:** Viale della Vittoria, 73, Ancona, AN 60123
-   - **Orari di apertura:** 08:30 - 12:30 / 16:00 - 19:30
-   - **Telefono:** 071 32366
-
-9. **Farmacia Adriatica**
-   - **Indirizzo:** Via Trieste, 1/A, Ancona, AN 60124
-   - **Orari di apertura:** 08:30 - 13:00 / 16:30 - 20:00
-   - **Telefono:** 071 204252
-
-10. **Farmacia Centrale**
-    - **Indirizzo:** Corso Giuseppe Mazzini, 1, Ancona, AN 60121
-    - **Orari di apertura:** 08:30 - 22:30
-    - **Telefono:** 071 2084647
-
-### Turni Notturni
-- **Farmacia Del Piano**
-  - **Indirizzo:** Piazza Ugo Bassi, 4, Ancona, AN 60121
-  - **Orari di apertura:** 07:00 - 23:00
-  - **Telefono:** 071 894208
-
-- **Farmacia Della Ferrovia**
-  - **Indirizzo:** Via Guglielmo Marconi, 213, Ancona, AN 60125
-  - **Orari di apertura:** 08:30 - 13:00 / 16:00 - 19:30
-  - **Telefono:** 071 44937
+### Farmacie di Turno Notturno Questa Settimana
+- **Farmacia del Piano**: Apertura continua fino a mezzanotte (00:00 - 23:00) nei giorni feriali.
+- **Farmacia Dubbini**: Apre alle 16:00 e chiude alle 20:00, ma potrebbe essere disponibile in reperibilità notturna.
 
 ### Note
-- Gli orari possono variare, si consiglia di contattare le farmacie per confermare l'apertura.
-- Alcune farmacie offrono servizi di emergenza e consegna a domicilio.
+- Gli orari di apertura possono variare, si consiglia di contattare direttamente le farmacie per confermare.
+- Alcune farmacie potrebbero avere un servizio di reperibilità telefonica per emergenze durante la notte.
 
-Queste informazioni possono essere utili per i turisti che necessitano di servizi farmaceutici durante la settimana in Ancona.
+Queste informazioni possono risultare utili per i turisti che necessitano di servizi farmaceutici a Ancona in questa settimana.
