@@ -9,6 +9,7 @@ function loadTextFile(filePath, elementId) {
 }
 
 // Carica i file di testo nelle rispettive sezioni
+loadTextFile('info.txt', 'info-content');// Supermercati
 loadTextFile('cinema.txt', 'cinema-content');           // Cinema
 loadTextFile('farma.txt', 'farmacie-content');          // Farmacie
 loadTextFile('supermercati.txt', 'supermercati-content');// Supermercati
