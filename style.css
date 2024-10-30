@@ -84,7 +84,7 @@ section#info {
 
 /* Stile per le frecce dello slider */
 .swiper.swiper-button-prev,  .swiper.swiper-button-next {
-    color: #2c3e50; /* color can be changed according to main html page design */
+    color: #1c1f22; /* color can be changed according to main html page design */
     margin-left: 0%; /* remove margin if global width: 100% */
     margin-right: 0%; /* remove margin if global width: 100% */
     opacity: 50%;
@@ -93,7 +93,7 @@ section#info {
 
 /* Stile per il bullet attivo dello swiper */
 .swiper.swiper-pagination-bullet-active {
-    background: #2c3e50;
+    background: #1c1f22;
     opacity: 50%;
 
 }
