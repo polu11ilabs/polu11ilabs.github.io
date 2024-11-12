@@ -3,131 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI per Turismo: demo generale</title>
-    <!-- Link al CSS per la formattazione -->
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-</head>
-<body>
-    <header>
-        <h1>AI per Turismo: demo generale</h1>
-        <p style="font-size: 1.1em; color: #ffffff; margin-top: 10px;">
-            Questa pagina emula la pagina web di una impresa operante nel settore turistico come un albergo e/o simili.
-            L'obiettivo di questa pagina è quello di mostrare come l'IA possa sistematicamente accedere alle informazioni online e riunirle a disposizione di un utente in un solo luogo.
-        </p>
-    </header>
+    <title>AI per Turismo</title>
+<!-- CSS di Slick -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-     <!-- Sezione Info Generali -->
-     <section id="info">
-        <h2>Informazioni Aggiornamenti da parte dell'IA</h2>
-        <div id="info-content">
-            <!-- Contenuto del file info.txt -->
+<!-- CSS per le icone -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<!-- Font di Google -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- CSS personalizzato -->
+<link rel="stylesheet" href="style.css">
+
+
+<!-- Marked (per la conversione di Markdown, se necessario) -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+
+<nav class="navbar">
+    <div class="navbar-container">
+        <div class="navbar-left">
+            <a href="#Home" class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="24" height="24" color="#977daa">
+                    <path d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/>
+                </svg>
+            </a>
         </div>
-    </section>
-
-    <!-- Sezione Cinema -->
-    <section id="cinema">
-        <h2>Cinema - Programmazione</h2>
-        <div id="cinema-content">
-            <!-- Contenuto del file cinema.txt -->
+        <div class="navbar-right" id="navbarMenu">
+            <a href="#supermercati" class="nav-item">Supermercati</a>
+            <a href="#treni" class="nav-item">Treni</a>
+            <a href="#farmacie" class="nav-item">Farmacie</a>
+            <a href="#bus" class="nav-item">Bus</a>
         </div>
-    </section>
-
-    <!-- Sezione Farmacie -->
-    <section id="farmacie">
-        <h2>Farmacie Aperte</h2>
-        <div id="farmacie-content">
-            <!-- Contenuto del file farma.txt -->
+        <!-- Hamburger menu -->
+        <div class="hamburger-menu" id="hamburger">
+            ☰
         </div>
-    </section>
-
-    <!-- Sezione Supermercati -->
-    <section id="supermercati">
-        <h2>Supermercati Aperti</h2>
-        <div id="supermercati-content">
-            <!-- Contenuto del file supermercati.txt -->
-        </div>
-    </section>
-
-    <!-- Sezione Treni -->
-    <section id="treni">
-        <h2>Orari Treni</h2>
-        <img id="treni-image1" src="screen_treni/ancona-torrette_full_screenshot.png" alt="Immagine treni" style="width: 100%;">
-        <img id="treni-image2" src="screen_treni/ancona_full_screenshot.png" alt="Immagine treni" style="width: 100%;">
-    </section>
-
-    <!-- Sezione Bus -->
-    <section id="bus">
-        <h2>Orari Bus</h2>
-
-        <!-- Slider principale per orari bus -->
-        <div class="container">
-            <!-- Slider principale -->
-            <div class="swiper">
-                <!-- Paginazione e navigazione -->
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-                <!-- Wrapper di Swiper -->
-                <div class="swiper-wrapper">
-                    <!-- Le slide verranno aggiunte dinamicamente tramite JavaScript -->
-                </div>
-            </div>
-        </div>
+    </div>
+</nav>
     
 
-        <!-- Inclusione di Swiper e PDF.js -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
-        <script src="script.js"></script>
-        
-        <script>
-            // Slider PDF per Orari Bus
-            const pdfUrl = "pdf_bus/anconavacanzescolastico_21102024.pdf";
-
-            // Inizializza Swiper senza loop inizialmente
-            const swiper = new Swiper('.swiper', {
-                pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-            });
-
-            // Funzione per caricare e mostrare ogni pagina del PDF
-            async function loadPdfPages(url) {
-                const pdf = await pdfjsLib.getDocument(url).promise;
-
-                for (let i = 1; i <= pdf.numPages; i++) {
-                    const page = await pdf.getPage(i);
-                    const canvas = document.createElement('canvas');
-                    const context = canvas.getContext('2d');
-                    const viewport = page.getViewport({ scale: 1.5 });
-                    canvas.width = viewport.width;
-                    canvas.height = viewport.height;
-
-                    await page.render({ canvasContext: context, viewport: viewport }).promise;
-
-                    const imageDataUrl = canvas.toDataURL();
-                    const slide = document.createElement('div');
-                    slide.classList.add('swiper-slide');
-                    slide.innerHTML = `<img src="${imageDataUrl}" alt="Page ${i}">`;
-                    swiper.appendSlide(slide);
-                }
-
-                // Abilita il loop dopo aver caricato tutte le pagine
-                swiper.loopCreate();
-            }
-
-            // Carica le pagine del PDF al caricamento del documento
-            loadPdfPages(pdfUrl);
-        </script>
+    <section id="Home">
+        <header class="main-header">
+            <div class="header-content">
+                <h1>Tutto quello che cerchi, a pochi passi da te</h1>
+                <p>Scopri le informazioni più utili per goderti al meglio il tuo soggiorno: cinem, supermercati, farmacie e trasporti, tutto a portata di mano.</p>
+                <a href="#cinema" class="btn-primary">Inizia Ora</a>
+            </div>
+            <div class="header-icon">
+                <img src="https://www.ilcolledeilecci.it/wp-content/uploads/2020/06/logo-700x330-tw-424x200.png" alt="Logo Aziendale" class="logo">
+            </div>
+        </header>
     </section>
+
+    <section id="info">
+        <h2>Informazioni aggiornamenti da parte dell'IA</h2>
+        <div id="info-content"></div>
+    </section>
+
+    <section id="cinema" >
+        <div class="linea"></div>
+        <h1>
+            Cinema
+        </h1>
+    
+        <div id="cinema-content"></div>
+    </section>
+
+
+    <section id="supermercati">
+        <div class="linea"></div>
+        <h1>Supermercati</h1>
+        <div class="contenuti-mappa">
+            <div id="supermercati-content">
+            </div>
+            <div class="mappa"><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d46210.67565154111!2d13.425262217772271!3d43.62387824856666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssupermercati%20nei%20dintorni!5e0!3m2!1sit!2sit!4v1730907731687!5m2!1sit!2sit" width="1000 " height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    </div>
+    </section>
+
+  
+    <section id="farmacie">
+        <div class="linea"></div>
+        <h1>Farmacie</h1>
+        <div class="contenuti-mappa">
+            <div id="farmacie-content">
+                <!-- Contenuto per le farmacie aperte oggi verrà inserito qui -->
+            </div>
+            <div class="mappa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d32682.323629988747!2d13.427332504674574!3d43.612026019248034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sfarmacie%20nei%20dintorni!5e0!3m2!1sit!2sit!4v1730907253242!5m2!1sit!2sit" width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div> 
+        </div> 
+    <div id="farmacie-turno-notturno">
+        <!-- Contenuto per le farmacie di turno notturno verrà inserito qui -->
+    </div>
+    </section>
+  
+
+    <section id="treni">
+        <div class="linea"></div>
+        <h1>Orari treni</h1>
+        <div id="treni-images-container">
+            <img id="treni-image1" src="screen_treni/ancona-torrette_full_screenshot.png" alt="Immagine treni" />
+            <img id="treni-image2" src="screen_treni/ancona_full_screenshot.png" alt="Immagine treni" />
+        </div>
+    </section>
+
+    <section id="bus">
+        <div class="linea"></div>
+        <h1>Orari bus</h1>
+        <div class="slider-container" id="pdf-slider">
+            <!-- Le slide verranno aggiunte dinamicamente tramite JavaScript -->
+        </div>
+    </section>
+    
+       
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h2>Contattaci</h2>
+                    <p>email: <a style="text-decoration: none; color: white;" href="mailto:info@ilcolledeilecci.it">info@ilcolledeilecci.it</a></p>
+                    <p>Tel. <a style="text-decoration: none; color: white;" href="tel:+393318213366">+39 331 8213366</a></p>
+                    <a style="text-decoration: none; color: white;" href="https://www.ilcolledeilecci.it/">www.ilcolledeilecci.it</a>
+                </div>
+                <div class="footer-section">
+                    <h2>Indirizzo</h2>
+                    <p>Via Colle Ameno, 29</p>
+                    <p>Ancona, Italia</p>
+                    <a href="https://www.edih4marche.eu/"><img src="https://www.edih4marche.eu/wp-content/uploads/2024/05/logoEDIH4.svg" alt="Logo" style="width: 100px;"></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; Sito realizzato da <a href="https://www.ilabsindustry.it/" style="color: white;">i-Labs Industry</a></p>
+            </div>
+        </footer>
+
+
+    <button id="scrollToTopBtn" onclick="scrollToTop()">🡹</button>
+
+    <!-- jQuery (required for Slick) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Slick Carousel JS -->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- PDF.js Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+
+<script>
+    // Gestisce l'apertura e chiusura del menu a discesa
+    const hamburger = document.getElementById('hamburger');
+    const navbarRight = document.querySelector('.navbar-right');
+
+    hamburger.addEventListener('click', () => {
+        navbarRight.classList.toggle('active');
+    });
+</script>
+        
+    <!-- Collegamento al file JavaScript esterno -->
+    <script src="script.js"></script>
+
 </body>
 </html>
-
-<!--http://localhost:8000/index.html-->

@@ -1,99 +1,729 @@
-/* Impostazione del corpo della pagina */
+/* Impostazioni di base per il layout */
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    /*box-sizing: border-box;*/
+    font-family: 'Inter', sans-serif;
     background-color: #f5f5f5;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 100%;
 }
 
-/* Stile per l'header */
-header {
-    background-color: #2c3e50;
-    color: #ecf0f1;
-    padding: 20px;
-    text-align: center;
+header, section {
+    margin: 100px auto;
+    max-width: 1200px;
+    padding: 0 15px; /* Padding per evitare che gli elementi tocchino i bordi */
 }
 
-header h1 {
-    margin: 0;
+header h1, h1 {
     font-weight: 700;
+    color: #292e31;
+    font-family: "Inter";
 }
 
+.linea {
+    width: 5% ; /* La linea avrà la larghezza dell'intero contenitore */
+    height: 5px; /* Altezza della linea */
+    background-color:#977DAA; /* Colore della linea */
+    margin-bottom: 5px; /* Distanza tra la linea e l'elemento h1 */
+}
+
+/* Stile per i titoli */
 h2 {
-    color: #2c3e50;
     font-size: 1.5em;
+    color:#292e31 ;
+}
+
+/* Container principale */
+#treni {
+    width: 100%;
+    max-width: 1200px;  /* Imposta una larghezza massima per la sezione */
+    margin: 0 auto;  /* Centra la sezione orizzontalmente */
+    padding: 0 15px;  /* Aggiunge padding orizzontale per evitare che tocchi i bordi del contenitore */
+}
+
+/* Contenitore delle immagini */
+#treni-images-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+    max-width: 100%;
+    width: 100%;
+}
+
+/* Immagini */
+#treni-images-container img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+/* Stile base per la navbar */
+.navbar {
+    background-color: #f0f0f0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Link della navbar */
+a {
+    text-decoration: none;
+    color: #977daa;
+}
+
+/* Navbar a sinistra e destra */
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-item {
+    color: #977daa;
+    padding: 8px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    font-weight: 600;
+}
+
+.nav-item:hover {
+    background-color: #e0e0e0;
+}
+
+/* Hamburger menu per dispositivi mobili */
+.hamburger-menu {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Media query per dispositivi mobili */
+@media screen and (max-width: 768px) {
+    .navbar-container {
+        padding: 0 15px; /* Riduce il padding per adattarsi meglio su schermi piccoli */
+    }
+
+    /* Stile per l'icona home e l'hamburger menu */
+    .navbar-left {
+        flex: 1;
+        justify-content: flex-start; /* Allinea a sinistra */
+    }
+
+    .navbar-right {
+        display: none; /* Nasconde i link della navbar in modalità mobile */
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #f0f0f0;
+        border-radius: 20px;
+        padding: 10px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 60px; /* Aggiusta la posizione in base all'altezza della navbar */
+    }
+
+    .navbar-right.active {
+        display: flex; /* Mostra i link quando il menu è attivo */
+    }
+
+    .hamburger-menu {
+        display: block; /* Mostra l'hamburger menu */
+        margin-right: 10px;
+    }
+
+    /* Aggiunge spaziatura per evitare sovrapposizione */
+    .navbar {
+        padding-bottom: 10px;
+        width: 100%;
+    }
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+/* Contenuto principale dell'header */
+.header-content {
+    max-width: 600px;
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+    color: #333;
     margin-bottom: 10px;
-    border-bottom: 2px solid #bdc3c7;
-    padding-bottom: 5px;
 }
 
-h3 {
-    color: #34495e;
-    font-size: 1.3em;
-    margin-bottom: 5px;
+.header-content p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
 }
 
-/* Stile della sezione delle informazioni */
-section#info {
-    padding: 20px;
-    margin: 20px auto;
-    width: 80%;
-    background: #ecf0f1;
+/* Modifica per l'immagine dell'header */
+.header-icon {
+    display: flex;
+    justify-content: center; /* Centra l'immagine */
+}
+
+.header-icon img {
+    max-width: 100%;  /* Garantisce che l'immagine non si deformi */
+    height: auto;     /* Mantiene la proporzione dell'immagine */
+}
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #977daa;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ac90b8a6;
+}
+
+
+/* Sezione Informazioni IA */
+#info {
+    padding: 40px;
+    background: #e2d8e6;
+    border-radius: 10px;
+
+}
+
+#info h2 {
+    font-size: 1.8em;
+    color: #0c1014;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+/* Bottone scroll-to-top */
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;  /* Mantiene la posizione fissa in basso */
+    right: 20px;   /* Mantiene la posizione fissa a destra */
+    width: 40px;   /* Dimensione di base */
+    height: 40px;  /* Dimensione di base */
+    background-color: #ac90b8;
+    color: #fff;
+    border: none;
+    border-radius: 20%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+}
+
+/* Effetto hover */
+#scrollToTopBtn:hover {
+    background-color: #ac90b8a6;
+    transform: translateY(-3px);
+}
+
+/* Stile generale del footer */
+.footer {
+    background-color: #977daa;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section h2 {
+    color: #fff;
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+.footer-section p {
+    color: #fff;
+    font-size: 1em;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 0.9em;
+    color: #fff;
+}
+
+/* Contenitore delle card cinema */
+#cinema-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Stile per la card del cinema */
+.cinema-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.cinema-details{
+    padding: 40px 30px;
+}
+
+.cinema-item .details {
+    margin-bottom: 10px;
+}
+
+.cinema-item .details p:first-child {
+    font-weight: bold;
+}
+
+.cinema-item .toggle-button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.toggle-button {
+    background-color: #ac90b8;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+    font-family: 'Inter';
+    font-size: 0.9em;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-button:hover {
+    background-color: #ac90b8a6;
+}
+
+
+/* Stile per la sezione programmazione */
+.programming-details {
+    margin-top: 15px;
+    padding: 10px;
+    background-color:#ac90b859;
+    border-radius: 10px;
+    display: none;
+    padding: 40px 30px;
+
+}
+
+.programming-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.programming-details li {
+    margin: 5px 0;
+    padding: 10px;
+    border-bottom: 2px solid #ffffff;
+    background-color: #ffffffa1;
+    border-radius: 10px;
+    color: #444444;
+}
+
+.programming-details li strong {
+    color: #4d4351;
+    font-weight: bold;
+}
+
+
+/* Imposta .contenuti-mappa come contenitore flex */
+.contenuti-mappa {
+    display: flex; /* Usa flexbox per il layout delle colonne */
+    gap: 40px; /* Aggiungi uno spazio tra le colonne */
+    flex-wrap: wrap;
+    justify-content: space-between; /* Spaziatura tra gli elementi */
+}
+
+/* Stile per il contenitore del contenuto e mappa */
+#supermercati-content, #farmacie-content {
+    flex: 1; /* Fa in modo che il contenuto prenda tutta la larghezza disponibile */
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0 40px;
+    border-bottom: 10px solid white;
+    border-top: 10px solid white; 
+}
+
+
+/* Stile per farmacie di turno notturno */
+#farmacie-turno-notturno, .informazioni-aggiuntive {
+    margin-top: 20px;
+    padding: 40px 40px;
+    background-color: #ffffff; 
+    border: 1px solid #f7ebf6;  
+    border-radius: 10px;        
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    max-height: 500px;       
+    overflow-y: auto;           
+
+}
+
+/* La mappa deve occupare più spazio rispetto al contenuto */
+.mappa {
+    flex: 1.5; /* La mappa occupa più spazio rispetto al contenuto */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Stile per iframe nella mappa */
+.mappa iframe {
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
 }
 
-#text-content, #image-content {
+/* Stile per i contenuti scrollabili */
+.scrollable {
+    max-height: 600px;
+    overflow-y: auto;  /* Aggiungi lo scroll verticale */
     padding: 15px;
-    border: 1px solid #bdc3c7;
-    margin-bottom: 15px;
+    width: 100%; /* Assicura che il contenuto scrollabile occupi tutta la larghezza */
+    font-size: 1em;
 }
 
-#text-content p {
-    color: #2c3e50;
-    font-weight: 400;
+/* Stile per gli h3 dentro la sezione scrollabile */
+.scrollable h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #4d4351;
 }
 
-#image-content img {
+/* Stile per gli <p> dentro la sezione scrollabile */
+.scrollable p {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Personalizzazione della barra di scorrimento */
+.scrollable::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+    background-color: #ac90b8;
+    border-radius: 4px;
+}
+
+.scrollable::-webkit-scrollbar-thumb:hover {
+    background-color: #b3a7b8;
+}
+
+.scrollable::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+#pdf-slider {
+    display: none; /* Nasconde il contenitore dello slider inizialmente */
+}
+
+.slider-container {
     width: 100%;
-    height: auto;
-    display: block;
-    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
-
-/* Stile per il container dello swiper */
-#container {
-    width: 100%;
-    height: auto;
-    background: #f5f5f5; /* colore principale della pagina */
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
+.slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Centra il contenuto delle slide */
 }
 
-.swiper {
-    width: 80%;
-    height: fit-content;
+/* Aggiungi object-fit per le immagini o i canvas */
+.slick-slide canvas, .slick-slide img {
+    width: 90%; /* Adatta la larghezza al 100% */
+    height: auto; /* Mantiene la proporzione */
+    object-fit: contain; /* Assicura che l'immagine si adatti senza deformarsi */
 }
 
-.swiper-slide img {
-    width: 100%;
+/* Personalizzazione dei puntini */
+.slick-dots {
+    bottom: -60px; /* Posiziona i puntini sotto le slide */
 }
 
-/* Stile per le frecce dello slider */
-.swiper.swiper-button-prev,  .swiper.swiper-button-next {
-    color: #1c1f22; /* color can be changed according to main html page design */
-    margin-left: 0%; /* remove margin if global width: 100% */
-    margin-right: 0%; /* remove margin if global width: 100% */
-    opacity: 50%;
+.slick-dots li {
+    margin: 0px 0px;
 }
 
+.slick-dots li button:before {
+    color: #ac90b8; /* Colore dei puntini */
+    font-size: 8px;
 
-/* Stile per il bullet attivo dello swiper */
-.swiper.swiper-pagination-bullet-active {
-    background: #1c1f22;
-    opacity: 50%;
+}
 
+.slick-dots li.slick-active button:before {
+    color: #cdbed3; /* Colore del puntino attivo */
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #ac90b8; /* Colore delle frecce */
+    font-size: 40px;
+}
+
+/* Media query per dispositivi con larghezza inferiore a 768px (tablet e mobile) */
+@media (max-width: 768px) {
+    .main-header {
+        flex-direction: column; /* Cambia la disposizione in colonna su schermi piccoli */
+        align-items: center;  /* Centra i contenuti */
+    }
+
+    .header-content {
+        text-align: center; /* Centra il testo nell'header */
+    }
+
+    .header-icon {
+        margin-top: 20px; /* Distanza tra il testo e l'immagine */
+        width: 100%;  /* L'immagine occupa tutta la larghezza disponibile */
+        text-align: center;  /* Centra l'immagine */
+    }
+
+    .header-icon img {
+        max-width: 80%; /* Imposta una larghezza massima dell'immagine per evitare che diventi troppo grande */
+        margin-top: 10px;  /* Spazio tra il testo e l'immagine */
+    }
+}
+
+/* Per schermi molto piccoli (smartphone) */
+@media (max-width: 480px) {
+    .header-icon img {
+        max-width: 90%; /* L'immagine sarà ancora più grande su schermi molto piccoli */
+    }
+}
+
+/* Media Queries per dispositivi mobili */
+@media screen and (max-width: 768px) {
+
+
+    /* Modifica per le immagini */
+    #treni-images-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #treni-images-container img {
+        width: 80%;
+    }
+
+    /* Sezione dei treni */
+    #treni {
+        padding: 0 10px;
+    }
+
+    /* Sezione cinema */
+    #cinema-content {
+        flex-direction: column;
+    }
+
+    .cinema-item {
+        width: 100%;
+    }
+
+    /* Contenitore mappa */
+    .contenuti-mappa {
+        flex-direction: column;
+    }
+
+    .mappa {
+        width: 100%;
+        height: 300px;
+    }
+
+    /* Sezione footer */
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section h2 {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .footer-section p {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .footer-bottom {
+        font-size: 0.8em;
+    }
+    
+    .footer-section img {
+            margin: 20px auto; /* Centra l'immagine */
+            display: block;
+        }
+    }
+
+    /* Stile per il contenitore scrollabile */
+    .scrollable {
+        max-height: 400px;
+    }
+
+/* Media Queries per dispositivi molto piccoli */
+@media screen and (max-width: 480px) {
+
+    /* Riduzione dimensione dei bottoni */
+    .btn-primary, .toggle-button {
+        font-size: 1rem;
+        padding: 12px 18px;
+    }
+
+    /* Stile per le immagini */
+    #treni-images-container img {
+        width: 90%;
+    }
+
+    /* Mappa */
+    .mappa iframe {
+        height: 250px;
+    }
+
+    .mappa {
+        height: 250px;
+    }
+}
+
+/* Modifica slider per dispositivi mobili */
+@media (max-width: 768px) {
+    .slider-container {
+        width: 100%; /* Utilizza tutta la larghezza disponibile */
+        position: relative;  /* Assicura che le frecce siano posizionate correttamente rispetto al contenitore */
+    }
+
+    .slick-slide {
+        width: 100%; /* Ogni slide occuperà tutta la larghezza */
+        height: auto; /* Mantiene la proporzione delle immagini o del contenuto */
+    }
+
+    /* Frecce di navigazione */
+    .slick-prev:before, .slick-next:before {
+        font-size: 20px; /* Riduce le dimensioni delle frecce su mobile */
+        z-index: 2; /* Mantieni le frecce sopra il contenuto */
+    }
+
+    /* Posiziona le frecce dentro il contenitore */
+    .slick-prev, .slick-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%); /* Centra verticalmente */
+        z-index: 2;
+    }
+
+    .slick-prev {
+        left: -8px; /* Distanza dal bordo sinistro */
+    }
+
+    .slick-next {
+        right: -8px; /* Distanza dal bordo destro */
+    }
+
+    .slick-dots {
+        bottom: -60px; /* Posiziona i puntini più vicino al bordo inferiore */
+    }
+
+    .slick-dots li {
+        margin: -4px -4px;
+    }
+}
+
+/* Per schermi molto piccoli (ad esempio smartphone) */
+@media (max-width: 480px) {
+    .slick-prev:before, .slick-next:before {
+        font-size: 18px; /* Riduce ulteriormente la dimensione delle frecce */
+    }
+
+    /* Posiziona le frecce per non essere tagliate */
+    .slick-prev, .slick-next {
+        top: 50%; /* Centra le frecce verticalmente */
+        transform: translateY(-50%); /* Centra le frecce in modo più preciso */
+        font-size: 18px;  /* Diminuisce la dimensione delle frecce */
+    }
+
+    .slick-prev {
+        left: -8px;  /* Distanza dal bordo sinistro */
+    }
+
+    .slick-next {
+        right: -8px;  /* Distanza dal bordo destro */
+    }
+
+    .slick-dots li {
+        margin: -6px -6px;
+    }
+
+    .slick-dots {
+        bottom: -20px; /* Posiziona i puntini più vicino al bordo inferiore */
+    }
+    .slick-dots li button:before {
+        font-size: 4px; /* Riduce la dimensione dei puntini su schermi molto piccoli */
+    }
+}
+
+/* Media query per schermi più piccoli (max-width: 768px) */
+@media (max-width: 768px) {
+    #scrollToTopBtn {
+        width: 35px; /* Riduce la larghezza del bottone */
+        height: 35px; /* Riduce l'altezza del bottone */
+
+    }
+}
+
+/* Media query per schermi molto piccoli (max-width: 480px) */
+@media (max-width: 480px) {
+    #scrollToTopBtn {
+        width: 30px; /* Riduce ulteriormente la larghezza */
+        height: 30px; /* Riduce ulteriormente l'altezza */
+
+    }
 }

@@ -64,7 +64,7 @@ Ecco un elenco strutturato della programmazione dei film nei cinema di Ancona pe
        - Orari: 10:00 (domenica 3 novembre)
 
 ### Informazioni Aggiuntive:
-- **Prezzi medi biglietti:** Il prezzo medio del biglietto intero nei cinema di Ancona è di 6,3€.
+- **Prezzi medi biglietti:** Il prezzo medio del biglietto intero nei cinema di Ancona è di 6,8 €.
 - **Orari spettacoli:** Il primo spettacolo disponibile inizia alle 17:30, l'ultimo spettacolo viene proiettato alle 22:40.
 
 Queste informazioni sono utili per pianificare una visita al cinema ad Ancona questa settimana.
