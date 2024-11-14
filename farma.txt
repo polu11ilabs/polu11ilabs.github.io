@@ -1,9 +1,9 @@
-### Farmacie di Ancona Aperte Oggi (13 Novembre 2024)
+### Farmacie di Ancona Aperte Oggi (14 Novembre 2024)
 
-1. **Farmacia Flaminia**
-   - **Indirizzo:** Via Esino, 62, Ancona, AN, 60126
-   - **Orari:** 08:00 - 20:00
-   - **Telefono:** 071 888251
+1. **Farmacia Ferranti**
+   - **Indirizzo:** Piazza Rosselli, 2, Ancona, AN, 60126
+   - **Orari:** 08:30 - 20:00
+   - **Telefono:** 071 43395
 
 2. **Farmacia Zecchini**
    - **Indirizzo:** Piazza Roma, 1, Ancona, AN, 60121
@@ -15,38 +15,52 @@
    - **Orari:** 08:00 - 20:00
    - **Telefono:** 071 202710
 
-4. **Farmacia Del Piano**
-   - **Indirizzo:** Piazza Ugo Bassi, 4, Ancona, AN, 60121
-   - **Orari:** 07:00 - 23:00
-   - **Telefono:** 071 894208
-
-5. **Farmacia delle Grazie**
-   - **Indirizzo:** Via Mario Torresi, 135, Ancona, AN, 60128
-   - **Orari:** 07:30 - 20:00
-   - **Telefono:** 071 898332
-
-6. **Farmacia Dorica**
-   - **Indirizzo:** Via dell'Industria, 4, Ancona, AN, 60127
-   - **Orari:** 08:30 - 20:00
-   - **Telefono:** 071 202793
-
-7. **Farmacia San Giorgio**
-   - **Indirizzo:** Via Antonio Giannelli, 8, Ancona, AN, 60124
+4. **Farmacia La Salute**
+   - **Indirizzo:** Via Del Conero, 34, Ancona, AN, 60129
    - **Orari:** 08:00 - 20:00
-   - **Telefono:** 071 200434
+   - **Telefono:** 071 2365807
 
-8. **Farmacia Adriatica**
+5. **Farmacia Adriatica**
    - **Indirizzo:** Via Trieste, 1/A, Ancona, AN, 60124
    - **Orari:** 08:30 - 20:00
    - **Telefono:** 071 204252
 
+6. **Farmacia San Gaspare**
+   - **Indirizzo:** Via Brecce Bianche, 68/C, Ancona, AN, 60131
+   - **Orari:** 08:00 - 20:00
+   - **Telefono:** 071 2861222
+
+7. **Farmacia Del Piano**
+   - **Indirizzo:** Piazza Ugo Bassi, 4, Ancona, AN, 60121
+   - **Orari:** 08:00 - 23:00
+   - **Telefono:** 071 894208
+
+8. **Farmacia Dorica**
+   - **Indirizzo:** Via dell'Industria, 4, Ancona, AN, 60127
+   - **Orari:** 08:30 - 20:00
+   - **Telefono:** 071 202793
+
+9. **Farmacia Dell'Orologio**
+   - **Indirizzo:** Piazza Roma, 7, Ancona, AN, 60121
+   - **Orari:** 08:30 - 20:00
+   - **Telefono:** 071 2074801
+
+10. **Farmacia Centrale**
+    - **Indirizzo:** Corso Mazzini, 1, Ancona, AN, 60121
+    - **Orari:** 08:00 - 20:00
+    - **Telefono:** 071 2084647
+
 ### Farmacie di Turno Notturno Questa Settimana
 - **Farmacia Del Passetto**
-   - **Indirizzo:** Viale della Vittoria, 75/b, Ancona, AN, 60123
-   - **Telefono:** 071 2070811
+  - **Indirizzo:** Viale della Vittoria, 75, Ancona, AN, 60123
+  - **Telefono:** 071 202793
 
-- **Farmacia Posatora**
-   - **Indirizzo:** Via Martin Luther King, 9, Ancona, AN, 60131
-   - **Telefono:** 071 202771
+- **Farmacia Flaminia**
+  - **Indirizzo:** Via Esino, 62, Ancona, AN, 60126
+  - **Telefono:** 071 888251
+
+- **Farmacia Delle Grazie**
+  - **Indirizzo:** Via Mario Torresi, 137, Ancona, AN, 60128
+  - **Telefono:** 071 898332
 
 Queste informazioni sono utili per chi cerca servizi farmaceutici a Ancona in questa settimana.
