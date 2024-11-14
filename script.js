@@ -86,8 +86,13 @@ function loadPharmacyFile(filePath) {
             const pharmacyContent = document.getElementById('farmacie-content');
             pharmacyContent.classList.add('scrollable');  // Aggiungi la classe scrollable
             const nightShiftContent = document.getElementById('farmacie-turno-notturno');
+            nightShiftContent.classList.add('scrollable');  // Aggiungi la classe scrollable
             const sections = data.split('###');
-            const relevantSections = sections.slice(1, -1); // Rimuove la prima e ultima sezione vuota
+            const relevantSections = sections.slice(1); // Rimuove la prima sezione vuota
+
+            // Variabili per accumulare i contenuti separati
+            let pharmaciesHTML = "";
+            let nightShiftHTML = "";
 
             relevantSections.forEach((section) => {
                 if (section.trim()) {
@@ -102,46 +107,59 @@ function loadPharmacyFile(filePath) {
                             }
                         }
                         noteHTML += `</div>`;
-                        pharmacyContent.innerHTML += noteHTML;
+                        pharmacyContent.innerHTML += noteHTML;  // Aggiunge le note alla fine
                     }
 
                     // Gestisce la sezione "Farmacie di Turno Notturno"
-                    if (lines[0].includes("Farmacie di Turno Notturno")) {
-                        let nightShiftHTML = `<div><h3 style="color: #4d4351">Farmacie di turno notturno</h3>`;
+                    else if (lines[0].includes("Farmacie di Turno Notturno")) {
+                        nightShiftHTML = `<div><h3 style="color: #4d4351">Farmacie di turno notturno</h3><ul>`;
                         for (let i = 1; i < lines.length; i++) {
-                            if (lines[i].startsWith('- **')) {
-                                nightShiftHTML += `<p>${lines[i].replace(/- \*\*/g, '').replace(/\*\*/g, '').replace(/^(.*?)(:)/, '<strong>$1</strong>:').trim()}</p>`;
+                            if (lines[i].trim().startsWith("-")) {
+                                const nomeFarmacia = lines[i].replace(/- \*\*/g, '').replace(/\*\*/g, '').trim();                
+                                const indirizzo = lines[i + 1] ? lines[i + 1].replace(/\*\*/g, '').split(':')[1]?.trim() : '';                    
+                                const telefono = lines[i + 2] ? lines[i + 2].replace(/\*\*/g, '').split(':')[1]?.trim() : '';
+                                i += 2;  // Salta alle righe successive per la prossima farmacia
+                                nightShiftHTML += `
+                                    <li>
+                                        <h4><strong>${nomeFarmacia}</strong></h4>
+                                        <p><strong>Indirizzo:</strong> ${indirizzo}</p>
+                                        <p><strong>Telefono:</strong> ${telefono}</p>
+                                    </li>
+                                `;
                             }
                         }
-                        nightShiftHTML += `</div>`;
-                        nightShiftContent.innerHTML += nightShiftHTML;
+                        nightShiftHTML += `</ul></div>`;
                     }
 
-                    // Aggiunge il resto dei contenuti
-                    let pharmaciesHTML = `<div class="farmacie-content">`;
-                    for (let i = 1; i < lines.length; i++) {
-                        if (lines[i].includes("Farmacia")) {
-                            const nomeFarmacia = lines[i].replace(/^\d+\.\s*/, '').replace(/\*\*/g, '').trim();
-                            const indirizzo = lines[i + 1] ? lines[i + 1].split(':**')[1].trim() : '';
-                            const orari = lines[i + 2] ? lines[i + 2].split(':**')[1].trim() : '';
-                            const telefono = lines[i + 3] ? lines[i + 3].split(':**')[1].trim() : '';
-                            i += 3;
-
-                            pharmaciesHTML += `
-                                <h3><strong>${nomeFarmacia}</strong></h3>
-                                <p ><strong>Indirizzo:</strong> ${indirizzo}</p>
-                                <p ><strong>Orari:</strong> ${orari}</p>
-                                <p ><strong>Telefono:  </strong>${telefono}</p>
-                            `;
+                    // Gestisce la sezione "Farmacie Aperte Oggi"
+                    else {
+                        pharmaciesHTML += `<div class="farmacie-content">`;
+                        for (let i = 1; i < lines.length; i++) {
+                            if (lines[i].includes("Farmacia")) {
+                                const nomeFarmacia = lines[i].replace(/^\d+\.\s*/, '').replace(/\*\*/g, '').trim();
+                                const indirizzo = lines[i + 1] ? lines[i + 1].split(':**')[1].trim() : '';
+                                const orari = lines[i + 2] ? lines[i + 2].split(':**')[1].trim() : '';
+                                const telefono = lines[i + 3] ? lines[i + 3].split(':**')[1].trim() : '';
+                                i += 3;
+                                pharmaciesHTML += ` 
+                                    <h3><strong>${nomeFarmacia}</strong></h3>
+                                    <p><strong>Indirizzo:</strong> ${indirizzo}</p>
+                                    <p><strong>Telefono:</strong> ${telefono}</p>
+                                    <p><strong>Orari:</strong> ${orari}</p>`;
+                            }
                         }
+                        pharmaciesHTML += `</div>`;
                     }
-                    pharmaciesHTML += `</div>`;
-                    pharmacyContent.innerHTML += pharmaciesHTML;
                 }
             });
+
+            // Aggiungi separatamente i contenuti
+            pharmacyContent.innerHTML += pharmaciesHTML;  // Append farmacie aperte oggi
+            nightShiftContent.innerHTML = nightShiftHTML;  // Append farmacie di turno notturno
         })
         .catch(error => console.error('Errore nel caricamento di farma.txt:', error));
 }
+
 
 
 
@@ -198,12 +216,13 @@ function loadCinemaFile(filePath) {
             const sections = data.split('###').slice(1); // Salta la sezione introduttiva
 
             sections.forEach((section, index) => {
-                if (section.trim()) {
-                    const lines = section.trim().split('\n');   
+                if (section && section.trim()) {
+                    const lines = section.trim().split('\n').filter(line => line.trim() !== ""); // Filtra le righe vuote
 
-                    if (lines[0].includes("Informazioni Aggiuntive:")) {
-                        let informazioniHTML = `<div class="informazioni-aggiuntive"><h3>Informazioni Aggiuntive:</h3>`;
-                        for (let i = 1; i < lines.length - 1; i++) {
+                    // Gestisce la sezione delle note separatamente
+                    if (lines[0].includes("Informazioni Aggiuntive")) {
+                        let informazioniHTML = `<div class="informazioni-aggiuntive scrollable"><h3>Informazioni Aggiuntive:</h3>`;
+                        for (let i = 1; i < lines.length; i++) {
                             if (lines[i].trim()) {
                                 informazioniHTML += `<p>${lines[i].replace(/- \*\*/g, '').replace(/\*\*/g, '').replace(/^(.*?)(:)/, '<strong>$1</strong>:').trim()}</p>`;
                             }
@@ -213,11 +232,15 @@ function loadCinemaFile(filePath) {
                         return;
                     }
 
+                    // Estrarre il nome del cinema, indirizzo e telefono
                     const nomeCinema = lines[0].replace(/^\d+\.\s*/, '').replace(/\*\*$/, '').replace(/\*\*/g, '').trim();
-                    const indirizzo = lines[1] ? lines[1].split(':**')[1].trim() : '';
-                    const telefono = lines[2] ? lines[2].split(':**')[1].trim() : '';
+                    const indirizzo = lines[1] ? lines[1].split(':**')[1]?.trim() : '';
+                    const telefono = lines[2] ? lines[2].split(':**')[1]?.trim() : '';
+                    
+                    // Genera un ID unico per ogni sezione di programmazione
                     const programmingId = `programmazione-${index}`;
 
+                    // Inizia a costruire la programmazione dei film
                     let moviesHTML = `<h3>Film in programmazione</h3><ul>`;
                     for (let i = 4; i < lines.length; i++) {
                         let riga = lines[i].trim();
@@ -226,7 +249,7 @@ function loadCinemaFile(filePath) {
                             const titoloFilm = matchTitolo ? matchTitolo[1] : "Titolo non disponibile";
                             let orari = "";
                             if (i + 1 < lines.length && lines[i + 1].includes("Orari:")) {
-                                orari = lines[i + 1].split("Orari:")[1].trim();
+                                orari = lines[i + 1].split("Orari:")[1]?.trim() || "";
                                 i++;
                             }
                             moviesHTML += `<li><strong>${titoloFilm}</strong> | Orari: ${orari}</li>`;
@@ -234,19 +257,20 @@ function loadCinemaFile(filePath) {
                     }
                     moviesHTML += `</ul>`;
 
+                    // Crea il blocco HTML per ogni cinema
                     const listHTML = `
                         <div class="cinema-item">
                             <div class="cinema-details">
-                             <h2 style="color: #4d4351">${nomeCinema}</h2>
-                             <p><strong>Indirizzo:</strong> ${indirizzo}</p>
-                             <p><strong>Telefono:</strong> ${telefono}</p>
-                             </div>
+                                <h2 style="color: #4d4351">${nomeCinema}</h2>
+                                <p><strong>Indirizzo:</strong> ${indirizzo}</p>
+                                <p><strong>Telefono:</strong> ${telefono}</p>
+                            </div>
                             <div class="toggle-button-container">
-                            <button class="toggle-button" onclick="toggleProgramming('${programmingId}')">Programmazione</button>
-                             </div>
-                             <div id="${programmingId}" class="programming-details">
-                             ${moviesHTML}
-                             </div>
+                                <button class="toggle-button" onclick="toggleProgramming('${programmingId}')">Programmazione</button>
+                            </div>
+                            <div id="${programmingId}" class="programming-details" style="display: none;">
+                                ${moviesHTML}
+                            </div>
                         </div>
                     `;
                     cinemaContent.innerHTML += listHTML;
@@ -259,11 +283,7 @@ function loadCinemaFile(filePath) {
 // Funzione per mostrare/nascondere la sezione di programmazione
 function toggleProgramming(programmingId) {
     const programmingDetails = document.getElementById(programmingId);
-    if (programmingDetails.style.display === "none" || programmingDetails.style.display === "") {
-        programmingDetails.style.display = "block";  // Mostra la programmazione
-    } else {
-        programmingDetails.style.display = "none";  // Nasconde la programmazione
-    }
+    programmingDetails.style.display = programmingDetails.style.display === "none" ? "block" : "none";
 }
 
 

@@ -1,115 +1,54 @@
-Ecco un elenco strutturato della programmazione dei film nei cinema di Ancona per questa settimana, con orari, indirizzo e numero di telefono:
+### 1. **Multiplex Giometti**
+   - **Indirizzo:** Via Filonzi, 4 - Ancona (AN)
+   - **Telefono:** 07194123
+   - **Film in programmazione:**
+     - **Eterno Visionario**
+       - Orari: 20:00
+     - **Il Ragazzo dai Pantaloni Rosa**
+       - Orari: 18:00, 20:20, 22:30
+     - **Berlinguer - La Grande Ambizione**
+       - Orari: 22:40
+     - **Terrifier 3**
+       - Orari: 17:40, 20:15, 22:45
+     - **Uno Rosso**
+       - Orari: 17:30, 20:15, 22:40
+     - **Venom: The Last Dance**
+       - Orari: 17:50, 20:10, 22:30
+     - **Anora**
+       - Orari: 21:00
+     - **Un'avventura spaziale - Un film dei Looney Tunes**
+       - Orari: 17:30
+     - **The Substance**
+       - Orari: 19:30, 22:15
+     - **Parthenope**
+       - Orari: 18:30
+     - **Buffalo Kids**
+       - Orari: 17:30
+     - **Il Robot Selvaggio**
+       - Orari: 17:40
+     - **Stop Making Sense**
+       - Orari: 21:00
 
-### Cinema Multiplex Giometti Ancona
-**Indirizzo:** Via Filonzi, 4 - Ancona (AN)  
-**Telefono:** 07194123
+### 2. **Movieland Goldoni**
+   - **Indirizzo:** Via Montebello, 91 - Ancona (AN)
+   - **Telefono:** 071201236
+   - **Film in programmazione:**
+     - **Il Ragazzo dai Pantaloni Rosa**
+       - Orari: 18:30, 21:10
+     - **Berlinguer - La Grande Ambizione**
+       - Orari: 18:15
+     - **Eterno Visionario**
+       - Orari: 20:45
 
-#### Programmazione Film
-1. **Eterno Visionario**
-   - Orari: 20:00
-   - Genere: Drammatico, Biografico
-   - Durata: 112 Minuti
+### 3. **Cinema Azzurro**
+   - **Indirizzo:** Via Tagliamento, 39 - Ancona (AN)
+   - **Telefono:** 0710973884
+   - **Film in programmazione:**
+     - **Anora**
+       - Orari: 21:00
+     - **Vermiglio**
+       - Orari: 16:30, 18:45
 
-2. **Il Ragazzo dai Pantaloni Rosa**
-   - Orari: 18:00, 20:20, 22:30
-   - Genere: Drammatico
-   - Durata: 121 Minuti
-
-3. **Berlinguer - La Grande Ambizione**
-   - Orari: 22:40
-   - Genere: Biografico
-   - Durata: 123 Minuti
-
-4. **Parthenope**
-   - Orari: 18:20
-   - Genere: Drammatico, Fantastico
-   - Durata: 136 Minuti
-
-5. **Terrifier 3**
-   - Orari: 20:15, 22:45
-   - Genere: Horror
-   - Durata: 125 Minuti
-
-6. **Uno Rosso**
-   - Orari: 17:30, 20:15, 22:40
-   - Genere: Azione, Avventura, Commedia
-   - Durata: 102 Minuti
-
-7. **Fino alla Fine**
-   - Orari: 18:00
-   - Genere: Commedia, Drammatico
-   - Durata: 118 Minuti
-
-8. **Longlegs**
-   - Orari: 22:45
-   - Genere: Horror, Thriller
-   - Durata: 101 Minuti
-
-9. **Venom - The Last Dance**
-   - Orari: 17:50, 20:10, 22:30
-   - Genere: Azione, Fantascienza, Thriller
-   - Durata: 110 Minuti
-
-10. **Anora**
-    - Orari: 21:00
-    - Genere: Drammatico
-    - Durata: 139 Minuti
-
-11. **Un'Avventura Spaziale - Un Film dei Looney Tunes**
-    - Orari: 17:30
-    - Genere: Animazione, Avventura, Commedia
-    - Durata: 91 Minuti
-
-12. **The Substance**
-    - Orari: 19:30, 22:15
-    - Genere: Horror, Drammatico
-    - Durata: 140 Minuti
-
-13. **Buffalo Kids**
-    - Orari: 17:30
-    - Genere: Animazione, Avventura, Family
-    - Durata: 93 Minuti
-
-### Cinema Azzurro
-**Indirizzo:** Via Tagliamento, 39 - Ancona (AN)  
-**Telefono:** 0710973884
-
-#### Programmazione Film
-1. **Anora**
-   - Orari: 21:00
-   - Genere: Drammatico
-   - Durata: 139 Minuti
-
-### Cinema Movieland Goldoni
-**Indirizzo:** Via Montebello 91 - Ancona (AN)  
-**Telefono:** 071201236
-
-#### Programmazione Film
-1. **Parthenope**
-   - Orari: 18:15
-   - Genere: Drammatico, Fantastico
-   - Durata: 136 Minuti
-
-2. **Il Ragazzo dai Pantaloni Rosa**
-   - Orari: 18:30, 21:10
-   - Genere: Drammatico
-   - Durata: 121 Minuti
-
-3. **Berlinguer - La Grande Ambizione**
-   - Orari: 20:50
-   - Genere: Biografico
-   - Durata: 123 Minuti
-
-4. **Interstellar**
-   - Orari: 20:45
-   - Genere: Fantascienza
-   - Durata: 168 Minuti
-
-5. **Eterno Visionario**
-   - Orari: 18:00
-   - Genere: Drammatico, Biografico
-   - Durata: 112 Minuti
-
-### Note
-- Gli orari possono essere soggetti a variazioni. Si consiglia di verificare sul sito ufficiale dei cinema o contattare direttamente per conferme.
-- I film sono proiettati in diverse sale con posti numerati.
+### Informazioni Aggiuntive:
+**Prezzi biglietti:** Prezzo medio del biglietto intero è di €6,50.  
+**Consigli:** È consigliato prenotare i biglietti online per evitare code e garantire l'ingresso, soprattutto per i film più richiesti.

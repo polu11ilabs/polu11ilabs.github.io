@@ -1,53 +1,51 @@
-Ecco un elenco strutturato dei supermercati di Ancona con i relativi orari di apertura, indirizzi e numeri di telefono disponibili per questa settimana:
-
 1. **Supermercato Sì con Te**
-   - **Indirizzo:** Via Giacomo Matteotti, 115 - 60121 Ancona
-   - **Orari di apertura:** 8:00 - 20:00
+   - **Indirizzo:** Via Giacomo Matteotti, 115, Ancona, AN, 60121
    - **Telefono:** 071 2814070
+   - **Orari:** 08:00 - 14:00, 16:00 - 20:30 (Domenica 09:00 - 13:00)
 
-2. **Supermercato Sì con Te - Q2**
-   - **Indirizzo:** Via Flavia, snc - 60131 Ancona
-   - **Orari di apertura:** 8:00 - 20:00
-   - **Telefono:** 071 2864961
+2. **Conad**
+   - **Indirizzo:** Via Trieste, 45/47, Ancona, AN, 60124
+   - **Telefono:** 071 32986
+   - **Orari:** 08:00 - 20:00
 
 3. **Conad**
-   - **Indirizzo:** Corso Carlo Alberto, 2 - 60127 Ancona
-   - **Orari di apertura:** 8:00 - 20:00
-   - **Telefono:** 071 44640
+   - **Indirizzo:** Via Tiziano, 23/29, Ancona, AN, 60125
+   - **Telefono:** 071 2805058
+   - **Orari:** 08:00 - 20:00
 
 4. **Conad**
-   - **Indirizzo:** Via Tiziano, 23/29 - 60125 Ancona
-   - **Orari di apertura:** 8:00 - 20:00
-   - **Telefono:** 071 2805058
-
-5. **Conad**
-   - **Indirizzo:** Via Tenna, 6 - 60126 Ancona
-   - **Orari di apertura:** 8:00 - 20:00
+   - **Indirizzo:** Via Tenna, 6, Ancona, AN, 60126
    - **Telefono:** 071 2181089
+   - **Orari:** 08:00 - 20:00
 
-6. **Conad**
-   - **Indirizzo:** Via Trieste, 45/47 - 60124 Ancona
-   - **Orari di apertura:** 8:00 - 20:00
-   - **Telefono:** 071 32986
+5. **Coop**
+   - **Indirizzo:** Via Maratta Carlo, 30, Ancona, AN, 60123
+   - **Telefono:** 071 33775
+   - **Orari:** 08:00 - 20:00
 
-7. **Valle Bio**
-   - **Indirizzo:** Via Valenti Ghino, 1 - 60131 Ancona
-   - **Orari di apertura:** 8:00 - 20:00
-   - **Telefono:** 071 2901199
+6. **Coop**
+   - **Indirizzo:** Via Dell' Artigianato, 6, Ancona, AN, 60127
+   - **Telefono:** 071 2814824
+   - **Orari:** 08:00 - 20:00
 
-8. **Coal il Market City**
-   - **Indirizzo:** Via Manzoni Alessandro, 23 - 60128 Ancona
-   - **Orari di apertura:** 8:00 - 20:00
-   - **Telefono:** 071 2810234
+7. **Crai**
+   - **Indirizzo:** Corso Mazzini, Ancona, AN, 60131
+   - **Telefono:** 071 201251
+   - **Orari:** 06:30 - 13:30
 
-9. **Eurospin**
-   - **Indirizzo:** Via I Maggio, 10 - 60131 Ancona
-   - **Orari di apertura:** 8:00 - 20:00
+8. **Eurospin**
+   - **Indirizzo:** Via I Maggio, 10, Ancona, AN, 60131
    - **Telefono:** 071 2901334
+   - **Orari:** 08:00 - 20:00
 
-10. **Tigre**
-    - **Indirizzo:** Corso Amendola, 16 - 60131 Ancona
-    - **Orari di apertura:** 9:00 - 20:00
-    - **Telefono:** 071 201251
+9. **Sì Con Te Supermercato - Q2**
+   - **Indirizzo:** Via Flavia, snc, Ancona, AN, 60131
+   - **Telefono:** 071 2864961
+   - **Orari:** 08:00 - 14:00, 16:00 - 20:30
 
-Questi supermercati sono aperti durante la settimana e offrono una varietà di prodotti alimentari e non. Assicurati di controllare gli orari specifici prima di recarti presso il punto vendita.
+10. **Coal Il Market City**
+    - **Indirizzo:** Via Manzoni Alessandro, 23, Ancona, AN, 60128
+    - **Telefono:** 071 2810234
+    - **Orari:** 08:00 - 20:00
+
+Questi supermercati sono disponibili per la spesa questa settimana ad Ancona.

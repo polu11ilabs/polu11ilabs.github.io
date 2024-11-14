@@ -405,6 +405,29 @@ a {
 
 }
 
+.informazioni-aggiuntive p, .informazioni-aggiuntive h3 {
+    margin: 0px 25px;
+}
+
+#farmacie-turno-notturno ul {
+    list-style-type: none; /* Rimuove i bullet points */
+    padding-left: 0; /* Rimuove l'indentazione */
+}
+
+#farmacie-turno-notturno li {
+    margin-bottom: 10px; /* Aggiusta la spaziatura tra le voci, se necessario */
+}
+
+#farmacie-turno-notturno h4 {
+    font-size: 1.05em; /* Aumenta la dimensione del font per il nome della farmacia */
+    font-weight: bold; /* Rende il nome della farmacia in grassetto */
+}
+
+#farmacie-turno-notturno p {
+    font-size: 1em; /* Imposta una dimensione del font normale per indirizzo e telefono */
+}
+
+
 /* La mappa deve occupare più spazio rispetto al contenuto */
 .mappa {
     flex: 1.5; /* La mappa occupa più spazio rispetto al contenuto */

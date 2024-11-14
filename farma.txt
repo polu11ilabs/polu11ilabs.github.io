@@ -1,87 +1,52 @@
-Ecco l'elenco delle farmacie di Ancona con i relativi orari di apertura, indirizzo e numero di telefono, inclusi i turni notturni per questa settimana:
+### Farmacie di Ancona Aperte Oggi (13 Novembre 2024)
 
-### Farmacie di Ancona - Orari di apertura e turni
+1. **Farmacia Flaminia**
+   - **Indirizzo:** Via Esino, 62, Ancona, AN, 60126
+   - **Orari:** 08:00 - 20:00
+   - **Telefono:** 071 888251
 
-1. **Farmacia Del Piano**
-   - **Indirizzo:** Piazza Ugo Bassi, 7/f, Ancona (AN)
-   - **Telefono:** 071 894208
-   - **Orario:** 7:00 - 23:00
-
-2. **Farmacia Delle Grazie**
-   - **Indirizzo:** Via Mario Torresi, 135, Ancona (AN)
-   - **Telefono:** 071 898332
-   - **Orario:** 7:45 - 20:00
-
-3. **Farmacia Sciarrillo**
-   - **Indirizzo:** Via Ascoli Piceno, 23, Ancona (AN)
-   - **Telefono:** 071 898061
-   - **Orario:** 8:00 - 20:00
-
-4. **Farmacia Talamo**
-   - **Indirizzo:** Via XXV Aprile, 100, Ancona (AN)
-   - **Telefono:** 071 2070811
-   - **Orario:** 8:00 - 20:00
-
-5. **Farmacia San Giorgio**
-   - **Indirizzo:** Via Antonio Giannelli, 8, Ancona (AN)
-   - **Telefono:** 071 200434
-   - **Orario:** 8:00 - 20:00
-
-6. **Farmacia Dr Max**
-   - **Indirizzo:** Corso Garibaldi Giuseppe, 116, Ancona (AN)
-   - **Telefono:** 071 2070220
-   - **Orario:** 8:00 - 20:00
-
-7. **Farmacia Zecchini**
-   - **Indirizzo:** Piazza Roma, 1, Ancona (AN)
+2. **Farmacia Zecchini**
+   - **Indirizzo:** Piazza Roma, 1, Ancona, AN, 60121
+   - **Orari:** 08:30 - 20:00
    - **Telefono:** 071 2074804
-   - **Orario:** 8:30 - 20:00
 
-8. **Farmacia Palmieri e Gaffuri**
-   - **Indirizzo:** Corso Giuseppe Garibaldi, 62, Ancona (AN)
+3. **Farmacia Dubbini**
+   - **Indirizzo:** Corso Giovanni Amendola, 26, Ancona, AN, 60123
+   - **Orari:** 08:00 - 20:00
+   - **Telefono:** 071 202710
+
+4. **Farmacia Del Piano**
+   - **Indirizzo:** Piazza Ugo Bassi, 4, Ancona, AN, 60121
+   - **Orari:** 07:00 - 23:00
+   - **Telefono:** 071 894208
+
+5. **Farmacia delle Grazie**
+   - **Indirizzo:** Via Mario Torresi, 135, Ancona, AN, 60128
+   - **Orari:** 07:30 - 20:00
+   - **Telefono:** 071 898332
+
+6. **Farmacia Dorica**
+   - **Indirizzo:** Via dell'Industria, 4, Ancona, AN, 60127
+   - **Orari:** 08:30 - 20:00
+   - **Telefono:** 071 202793
+
+7. **Farmacia San Giorgio**
+   - **Indirizzo:** Via Antonio Giannelli, 8, Ancona, AN, 60124
+   - **Orari:** 08:00 - 20:00
+   - **Telefono:** 071 200434
+
+8. **Farmacia Adriatica**
+   - **Indirizzo:** Via Trieste, 1/A, Ancona, AN, 60124
+   - **Orari:** 08:30 - 20:00
+   - **Telefono:** 071 204252
+
+### Farmacie di Turno Notturno Questa Settimana
+- **Farmacia Del Passetto**
+   - **Indirizzo:** Viale della Vittoria, 75/b, Ancona, AN, 60123
+   - **Telefono:** 071 2070811
+
+- **Farmacia Posatora**
+   - **Indirizzo:** Via Martin Luther King, 9, Ancona, AN, 60131
    - **Telefono:** 071 202771
-   - **Orario:** 8:00 - 20:00
 
-9. **Farmacia Centrale**
-   - **Indirizzo:** Corso Mazzini, 1, Ancona (AN)
-   - **Telefono:** 071 2084647
-   - **Orario:** 8:00 - 21:30
-
-10. **Farmacia Angelini**
-    - **Indirizzo:** Corso Amandola, 5, Ancona (AN)
-    - **Telefono:** 071 204142
-    - **Orario:** 8:00 - 21:00
-
-11. **Farmacia Dubbini**
-    - **Indirizzo:** Corso Giovanni Amendola, 26, Ancona (AN)
-    - **Telefono:** 071 202710
-    - **Orario:** 8:00 - 20:00
-
-12. **Farmacia Del Pinocchio**
-    - **Indirizzo:** Via Pontelungo, 20, Ancona (AN)
-    - **Telefono:** 071 2802355
-    - **Orario:** 8:00 - 20:00
-
-13. **Farmacia Del Passetto**
-    - **Indirizzo:** Viale della Vittoria, 75/b, Ancona (AN)
-    - **Telefono:** 071 32366
-    - **Orario:** 8:30 - 13:00 e 15:30 - 20:00 (Turno notturno fino a domani 8:30)
-
-14. **Farmacia Flaminia**
-    - **Indirizzo:** Via Esino, 62, Torrette, Ancona (AN)
-    - **Telefono:** 071 888251
-    - **Orario:** 8:00 - 20:00
-
-15. **Farmacia Dell'Aspio**
-    - **Indirizzo:** Via Aspio, 4, Aspio, Ancona (AN)
-    - **Telefono:** 071 2906141
-    - **Orario:** 8:00 - 20:00
-
-16. **Farmacia Collemarino**
-    - **Indirizzo:** Via Matteo Ricci, 15, Collemarino, Ancona (AN)
-    - **Telefono:** 071 882210
-    - **Orario:** 8:00 - 20:00
-
-### Note
-- Gli orari di apertura possono variare, si consiglia di contattare direttamente le farmacie per confermare i turni e gli orari.
-- Il servizio di turno è riservato alle sole urgenze e potrebbe essere svolto in reperibilità telefonica.
+Queste informazioni sono utili per chi cerca servizi farmaceutici a Ancona in questa settimana.
