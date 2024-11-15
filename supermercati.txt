@@ -1,41 +1,51 @@
 1. **Supermercato Sì con Te**
    - **Indirizzo:** Via Giacomo Matteotti, 115, Ancona, AN, 60121
    - **Telefono:** 071 2814070
-   - **Orari:** 08:00 - 14:00, 16:00 - 20:30 (Domenica 09:00 - 13:00)
+   - **Orari:** 08:00 - 20:30
 
-2. **Conad**
+2. **Sì Con Te Supermercato - Q2**
+   - **Indirizzo:** Via Flavia, snc, Ancona, AN, 60131
+   - **Telefono:** 071 2864961
+   - **Orari:** 08:00 - 20:30
+
+3. **Conad**
+   - **Indirizzo:** Corso Carlo Alberto, 2, Ancona, AN, 60127
+   - **Telefono:** 071 44640
+   - **Orari:** 08:00 - 20:30
+
+4. **Conad**
+   - **Indirizzo:** Via Tiziano, 23/29, Ancona, AN, 60125
+   - **Telefono:** 071 2805058
+   - **Orari:** 08:00 - 20:30
+
+5. **Conad**
    - **Indirizzo:** Via Trieste, 45/47, Ancona, AN, 60124
    - **Telefono:** 071 32986
-   - **Orari:** 08:00 - 20:00
+   - **Orari:** 08:00 - 20:30
 
-3. **Coal Il Market City**
-   - **Indirizzo:** Via Manzoni Alessandro, 23, Ancona, AN, 60128
-   - **Telefono:** 071 2810234
-   - **Orari:** Orario continuato
-
-4. **Coop**
+6. **Coop**
    - **Indirizzo:** Via Maratta Carlo, 30, Ancona, AN, 60123
    - **Telefono:** 071 33775
    - **Orari:** 08:00 - 20:30
 
-5. **Eurospin**
-   - **Indirizzo:** Via I Maggio, 10, Ancona, AN, 60131
-   - **Telefono:** 071 2901334
-   - **Orari:** Orario continuato
-
-6. **Crai**
+7. **Crai**
    - **Indirizzo:** Corso Mazzini Giuseppe, Ancona, AN, 60131
    - **Telefono:** 071 201251
-   - **Orari:** 06:30 - 13:30
+   - **Orari:** 08:00 - 20:30
 
-7. **Tigre**
-   - **Indirizzo:** Corso Amendola, 16, Ancona, AN, 60131
-   - **Telefono:** Non disponibile
-   - **Orari:** 08:00 - 20:00
+8. **Eurospin**
+   - **Indirizzo:** Via I Maggio, 10, Ancona, AN, 60131
+   - **Telefono:** 071 2901334
+   - **Orari:** 08:00 - 20:30
 
-8. **In's**
-   - **Indirizzo:** Via della Montagnola, 71/A, Ancona, AN, 60127
-   - **Telefono:** 375 5250881
-   - **Orari:** Orario continuato
+9. **NaturaSì**
+   - **Indirizzo:** Via della Montagnola, 3, Ancona, AN, 60127
+   - **Telefono:** 071 2800800
+   - **Orari:** 08:00 - 20:30
+
+10. **In'S**
+    - **Indirizzo:** Via della Montagnola, 71/A, Ancona, AN, 60127
+    - **Telefono:** 375 5250881
+    - **Orari:** 08:00 - 20:30
 
 Questi supermercati sono disponibili per la spesa questa settimana ad Ancona.

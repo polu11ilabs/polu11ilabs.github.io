@@ -1,66 +1,87 @@
-### Farmacie di Ancona Aperte Oggi (14 Novembre 2024)
+### Farmacie di Ancona Aperte Oggi (15 Novembre 2024)
 
-1. **Farmacia Ferranti**
-   - **Indirizzo:** Piazza Rosselli, 2, Ancona, AN, 60126
-   - **Orari:** 08:30 - 20:00
-   - **Telefono:** 071 43395
-
-2. **Farmacia Zecchini**
-   - **Indirizzo:** Piazza Roma, 1, Ancona, AN, 60121
-   - **Orari:** 08:30 - 20:00
-   - **Telefono:** 071 2074804
-
-3. **Farmacia Dubbini**
+1. **Farmacia Dubbini**
    - **Indirizzo:** Corso Giovanni Amendola, 26, Ancona, AN, 60123
    - **Orari:** 08:00 - 20:00
-   - **Telefono:** 071 202710
+   - **Telefono:** 071202710
+
+2. **Farmacia Lemme**
+   - **Indirizzo:** Via delle Tavernelle, 107, Ancona, AN, 60128
+   - **Orari:** 08:00 - 19:45
+   - **Telefono:** 07185808
+
+3. **Farmacia Posatora**
+   - **Indirizzo:** Via Martin Luther King, 9, Ancona, AN, 60131
+   - **Orari:** 08:00 - 20:00
+   - **Telefono:** 07142767
 
 4. **Farmacia La Salute**
-   - **Indirizzo:** Via Del Conero, 34, Ancona, AN, 60129
+   - **Indirizzo:** Via del Conero, 34, Ancona, AN, 60129
+   - **Orari:** 08:30 - 19:30
+   - **Telefono:** 07135303
+
+5. **Farmacia Palmieri e Gaffuri**
+   - **Indirizzo:** Corso Giuseppe Garibaldi, 62, Ancona, AN, 60121
    - **Orari:** 08:00 - 20:00
-   - **Telefono:** 071 2365807
+   - **Telefono:** 071202771
 
-5. **Farmacia Adriatica**
-   - **Indirizzo:** Via Trieste, 1/A, Ancona, AN, 60124
-   - **Orari:** 08:30 - 20:00
-   - **Telefono:** 071 204252
+6. **Farmacia Ancona**
+   - **Indirizzo:** Corso Giovanni Amendola, 5/B, Ancona, AN, 60123
+   - **Orari:** 08:30 - 23:59
+   - **Telefono:** 071204142
 
-6. **Farmacia San Gaspare**
-   - **Indirizzo:** Via Brecce Bianche, 68/C, Ancona, AN, 60131
-   - **Orari:** 08:00 - 20:00
-   - **Telefono:** 071 2861222
-
-7. **Farmacia Del Piano**
+7. **Farmacia del Piano**
    - **Indirizzo:** Piazza Ugo Bassi, 4, Ancona, AN, 60121
-   - **Orari:** 08:00 - 23:00
-   - **Telefono:** 071 894208
+   - **Orari:** 07:00 - 23:00
+   - **Telefono:** 071894208
 
-8. **Farmacia Dorica**
+8. **Farmacia delle Grazie**
+   - **Indirizzo:** Via Mario Torresi, 137, Ancona, AN, 60128
+   - **Orari:** 07:30 - 20:00
+   - **Telefono:** 071898332
+
+9. **Farmacia Dorica**
    - **Indirizzo:** Via dell'Industria, 4, Ancona, AN, 60127
    - **Orari:** 08:30 - 20:00
-   - **Telefono:** 071 202793
+   - **Telefono:** 071202793
 
-9. **Farmacia Dell'Orologio**
-   - **Indirizzo:** Piazza Roma, 7, Ancona, AN, 60121
-   - **Orari:** 08:30 - 20:00
-   - **Telefono:** 071 2074801
-
-10. **Farmacia Centrale**
-    - **Indirizzo:** Corso Mazzini, 1, Ancona, AN, 60121
+10. **Farmacia Nazionale Livia Pergoli**
+    - **Indirizzo:** Via Guglielmo Marconi, 131, Ancona, AN, 60125
     - **Orari:** 08:00 - 20:00
-    - **Telefono:** 071 2084647
+    - **Telefono:** 071204040
+
+11. **Farmacia dell'Orologio**
+    - **Indirizzo:** Piazza Roma, 7, Ancona, AN, 60121
+    - **Orari:** 08:00 - 19:45
+    - **Telefono:** 0712074801
+
+12. **Farmacia Zecchini**
+    - **Indirizzo:** Piazza Roma, 1, Ancona, AN, 60121
+    - **Orari:** 08:30 - 20:00
+    - **Telefono:** 0712074804
+
+13. **Farmacia San Gaspare**
+    - **Indirizzo:** Via Brecce Bianche, 68/C, Ancona, AN, 60131
+    - **Orari:** 08:00 - 20:00
+    - **Telefono:** 0712861222
+
+14. **Farmacia Flaminia**
+    - **Indirizzo:** Via Esino, 62, Ancona, AN, 60126
+    - **Orari:** 08:00 - 20:00
+    - **Telefono:** 071888251
+
+15. **Farmacia Tornatora**
+    - **Indirizzo:** Piazza Salvo d'Acquisto, 38, Ancona, AN, 60131
+    - **Orari:** 08:30 - 19:30
+    - **Telefono:** 0712866437
 
 ### Farmacie di Turno Notturno Questa Settimana
-- **Farmacia Del Passetto**
-  - **Indirizzo:** Viale della Vittoria, 75, Ancona, AN, 60123
-  - **Telefono:** 071 202793
+- **Farmacia del Piano**
+   - **Indirizzo:** Piazza Ugo Bassi, 4, Ancona, AN, 60121
+   - **Telefono:** 071894208
 
-- **Farmacia Flaminia**
-  - **Indirizzo:** Via Esino, 62, Ancona, AN, 60126
-  - **Telefono:** 071 888251
-
-- **Farmacia Delle Grazie**
-  - **Indirizzo:** Via Mario Torresi, 137, Ancona, AN, 60128
-  - **Telefono:** 071 898332
+- **Farmacia Nazionale Livia Pergoli**
+   - **Indirizzo:** Via Guglielmo Marconi, 131, Ancona, AN, 60125
+   - **Telefono:** 071204040
 
 Queste informazioni sono utili per chi cerca servizi farmaceutici a Ancona in questa settimana.

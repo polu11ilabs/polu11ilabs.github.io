@@ -1,4 +1,4 @@
-### 1. **Multiplex Giometti**
+### 1. **Multiplex Giometti Ancona**
    - **Indirizzo:** Via Filonzi, 4 - Ancona (AN)
    - **Telefono:** 07194123
    - **Film in programmazione:**
@@ -6,42 +6,50 @@
        - Orari: 17:30, 18:30, 20:30, 21:30
      - **Giurato Numero 2**
        - Orari: 17:50, 20:15, 22:40
-     - **Non sono quello che sono**
-       - Orari: 20:30
-     - **This Time Next Year - Cosa fai a Capodanno?**
-       - Orari: 20:00
-     - **Anora**
-       - Orari: 22:30
-     - **Eterno Visionario**
-       - Orari: 17:50
+       - Orari (V.O.): 21:00
      - **Il Ragazzo dai Pantaloni Rosa**
        - Orari: 17:50, 20:10
-     - **Terrifier 3**
-       - Orari: 20:20, 22:45
      - **Uno Rosso**
        - Orari: 17:30, 20:15, 22:40
+     - **Terrifier 3**
+       - Orari: 20:10, 22:40
+     - **Non sono quello che sono**
+       - Orari: 17:40
      - **The Substance**
        - Orari: 22:30
      - **Venom: The Last Dance**
-       - Orari: 17:50, 22:30
+       - Orari: 17:50
      - **Longlegs**
-       - Orari: 22:40
+       - Orari: 22:20
      - **Il Robot Selvaggio**
        - Orari: 17:30
+     - **This Time Next Year - Cosa fai a Capodanno?**
+       - Orari: 20:00
 
 ### 2. **Cinema Azzurro**
    - **Indirizzo:** Via Tagliamento, 39 - Ancona (AN)
    - **Telefono:** 0710973884
    - **Film in programmazione:**
      - **Anora**
-       - Orari: 21:15
-     - **Vermiglio**
-       - Orari: 19:00
+       - Orari: 21:00
+
+### 3. **Movieland Goldoni**
+   - **Indirizzo:** Via Montebello, 91 - Ancona (AN)
+   - **Telefono:** 071201236
+   - **Film in programmazione:**
+     - **Il Gladiatore II**
+       - Orari: 18:00, 20:50
+     - **Giurato Numero 2**
+       - Orari: 18:20, 20:30
+     - **Eterno Visionario**
+       - Orari: 18:40
 
 ### Informazioni Aggiuntive:
 **Prezzi biglietti:** 
-- Prezzo medio del biglietto intero nei cinema di Ancona è di 8,2€.
-- Prezzo minimo intero è di 6,5€, mentre il prezzo massimo è di 9€.
+- Intero: €9,50
+- Ridotto: €7,50 (under 12, over 65, militari, invalidi)
+- Mercoledì: €6,50 (esclusi eventi speciali)
 
 **Consigli:** 
-- Si consiglia di prenotare i biglietti online per evitare lunghe attese al cinema e garantire un posto a sedere, soprattutto per i film più attesi. È importante arrivare almeno 10 minuti prima dell'inizio del film per evitare di perdere l'inizio della proiezione.
+- È consigliato prenotare i biglietti online, soprattutto per i film più attesi.
+- L'ingresso in sala non è consentito a film iniziato.
